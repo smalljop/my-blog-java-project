@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: redis-example
+  redis:
+    host: localhost
+    port: 6379
+    # redis有16个库 默认选择第0个使用
+    database: 0
+    password:
+# 端口给个0 代表随机选择一个未被使用端口
+server:
+  port: 0

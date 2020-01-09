@@ -2,11 +2,11 @@ spring:
   application:
     name: redis-example
   redis:
-    host: localhost
+    host: 47.106.35.76
     port: 6379
-    # redisÓĞ16¸ö¿â Ä¬ÈÏÑ¡ÔñµÚ0¸öÊ¹ÓÃ
+    # redisæœ‰16ä¸ªåº“ é»˜è®¤é€‰æ‹©ç¬¬0ä¸ªä½¿ç”¨
     database: 0
     password:
-# ¶Ë¿Ú¸ø¸ö0 ´ú±íËæ»úÑ¡ÔñÒ»¸öÎ´±»Ê¹ÓÃ¶Ë¿Ú
+# ç«¯å£ç»™ä¸ª0 ä»£è¡¨éšæœºé€‰æ‹©ä¸€ä¸ªæœªè¢«ä½¿ç”¨ç«¯å£
 server:
   port: 0

@@ -12,6 +12,7 @@
 
     <modules>
         <module>redis-example</module>
+        <module>spring-data-redis-bloom-filter</module>
     </modules>
 
 </project>
